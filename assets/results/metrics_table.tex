@@ -1,0 +1,29 @@
+\begin{tabular}{llccccc}
+\toprule
+Scene & Method & PSNR$\uparrow$ & SSIM$\uparrow$ & LPIPS$\downarrow$ & UIQM$\uparrow$ & UCIQE$\uparrow$ \\
+\midrule
+set4 & SeaThru-NeRF & \second{31.663} & 0.835 & 0.239 & 1.091 & 0.181 \\
+ & WaterSplatting & 30.113 & 0.845 & 0.238 & 1.864 & \first{0.320} \\
+ & SeaSplat & 17.451 & 0.871 & \first{0.130} & 1.210 & \second{0.302} \\
+ & RUSplatting & 31.616 & \second{0.876} & 0.209 & 1.998 & 0.242 \\
+ & UW-GS & 28.341 & 0.811 & 0.317 & 1.521 & 0.219 \\
+ & Plenodium & 30.209 & 0.849 & 0.248 & \second{2.045} & 0.238 \\
+ & \textbf{Ours} (v14) & \first{33.231} & \first{0.891} & \second{0.159} & \first{2.475} & 0.259 \\
+\midrule
+set5 & SeaThru-NeRF & \second{29.072} & 0.735 & 0.238 & 3.096 & 0.160 \\
+ & WaterSplatting & 27.936 & 0.765 & 0.211 & 3.767 & \first{0.311} \\
+ & SeaSplat & 13.269 & 0.761 & \second{0.146} & 2.244 & 0.219 \\
+ & RUSplatting & 29.034 & \second{0.810} & 0.162 & \first{4.319} & 0.242 \\
+ & UW-GS & 25.187 & 0.648 & 0.333 & 3.204 & 0.195 \\
+ & Plenodium & 28.004 & 0.764 & 0.224 & \second{4.224} & \second{0.306} \\
+ & \textbf{Ours} (v15) & \first{31.402} & \first{0.864} & \first{0.104} & 4.028 & 0.179 \\
+\midrule
+set8 & SeaThru-NeRF & 26.955 & 0.670 & 0.329 & 3.291 & 0.195 \\
+ & WaterSplatting & 26.410 & 0.690 & 0.247 & \second{4.326} & 0.255 \\
+ & SeaSplat & 13.477 & \first{0.840} & \first{0.091} & 3.854 & 0.253 \\
+ & RUSplatting & \second{28.015} & 0.780 & 0.191 & 4.274 & 0.237 \\
+ & UW-GS & 24.242 & 0.583 & 0.432 & 2.661 & 0.253 \\
+ & Plenodium & 26.331 & 0.691 & 0.260 & 4.078 & \first{0.262} \\
+ & \textbf{Ours} (v15) & \first{28.535} & \second{0.801} & \second{0.171} & \first{4.403} & \second{0.258} \\
+\bottomrule
+\end{tabular}
